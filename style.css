@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*f means one fraction */
+}
+
+.child {
+    border: 5px solid black;
+}
+
+.change {
+    color: lightblue;
+    font-size: 100px;
+    border: 10px solid black;
+}
+
+main {
+    font-size: 2rem;
+    font-style: unset;
+    font-family: cursive;
+    background-color: rgba(0, 255, 255, 0.308);
+    padding: 5rem;
+    text-shadow: -5px 5px 9px rgb(141, 101, 235);
+    text-decoration-style: dotted;
+}
+
+#value {
+    font-size: 5rem;
+    font-weight: 900;
+
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    text-justify: center;
+    justify-content: center;
+    background-color: rgba(100, 148, 237, 0.281);
+    padding: 5rem;
+}
+
+.button-container {
+    background-color: rgba(127, 255, 212, 0.288);
+
+}
